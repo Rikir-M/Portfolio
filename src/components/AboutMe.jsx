@@ -27,7 +27,7 @@ const AboutMe = () => {
           >
             <div className="col-span-1">
               <h1 className="font-semibold text-[26px] text-primary md:text-[40px] mb-[25px]">
-                I&apos;m a Junior Front-end Developer.
+                I am a Junior Front-end Developer.
               </h1>
               <p className="text-textColor text-[16px] md:text-[18px] mb-[25px]">
                 Welcome to my portfolio! I am an aspiring junior front-end

@@ -17,7 +17,7 @@ const Intro = () => {
                   className=" text-xl "
                   style={{ textShadow: "3px 3px 1px #0f172a" }}
                 >
-                  Hsu Yati Myo.
+                  Hsu Yati Myo,
                 </span>
                 
               </p>
@@ -27,10 +27,10 @@ const Intro = () => {
               </p>
             </div>
             <p className="text-primary text-[50px] mb-[20px] md:mb-[20px] font-semibold bounce1 cssanimation bounceInLeft">
-              I am a Front-end Developer
+              a Front-end Developer
             </p>
             <p className="text-textColor mb-[8px] text-[20px] bounce2 cssanimation bounceInLeft">
-              Based in Yangon, Myanmar.
+              based in Yangon, Myanmar.
             </p>
             <button className="uppercase mt-[10px] py-[10px] px-[20px] tracking-[2px] btn text-white bg-[#AA7EEE] bounce3 cssanimation bounceInLeft">
               Let&apos;s Start
