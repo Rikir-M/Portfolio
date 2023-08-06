@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  background-image: linear-gradient(346deg,
+      rgba(55, 55, 55, 0.04) 0%,
+      rgba(55, 55, 55, 0.04) 22%,
+      rgba(140, 140, 140, 0.04) 22%,
+      rgba(140, 140, 140, 0.04) 69%,
+      rgba(225, 225, 225, 0.04) 69%,
+      rgba(225, 225, 225, 0.04) 100%),
+    linear-gradient(31deg,
+      rgba(55, 55, 55, 0.04) 0%,
+      rgba(55, 55, 55, 0.04) 42%,
+      rgba(140, 140, 140, 0.04) 42%,
+      rgba(140, 140, 140, 0.04) 85%,
+      rgba(225, 225, 225, 0.04) 85%,
+      rgba(225, 225, 225, 0.04) 100%),
+    linear-gradient(55deg,
+      rgba(55, 55, 55, 0.04) 0%,
+      rgba(55, 55, 55, 0.04) 13%,
+      rgba(140, 140, 140, 0.04) 13%,
+      rgba(140, 140, 140, 0.04) 72%,
+      rgba(225, 225, 225, 0.04) 72%,
+      rgba(225, 225, 225, 0.04) 100%),
+    linear-gradient(90deg, rgb(42, 34, 99), rgb(42, 34, 99));
+  scroll-behavior: smooth;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.btn {
+  box-shadow: 6px 6px 0 -1px #0f172a;
+  transition: all 0.4s;
+}
+
+.btn:hover {
+  box-shadow: 6px 6px 0 -1px #AA7EEE;
+  background-color: #0f172a;
+}
+
+.box {
+  transition: all 0.4s;
+}
+
+.box:hover {
+  box-shadow: 6px 6px 0 -1px #0f172a;
+}
+
+.pocard,
+.pocard .card {
+  transition: transform 0.4s;
+}
+
+.pocard:hover .card {
+  transform: translateX(20px);
+}
+
+@media (max-width: 992px) {
+
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .contactBg {
+    background-image: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .reverse-grid {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .reverse-grid> :nth-child(1) {
+    grid-row-start: 2;
+  }
+
+  .reverse-grid> :nth-child(2) {
+    grid-row-start: 1;
+  }
+}
+
+.me{
+  box-shadow: 6px 6px 0 -1px #0f172a;
+}
+
+.reverse{
+  direction: rtl;
+}
+
+.reverse .pocard .card {
+  transform: translateX(50px);
+}
+
+.reverse .pocard:hover .card {
+  transform: translateX(-20px);
+}

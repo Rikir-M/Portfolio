@@ -1,0 +1,39 @@
+/* .home {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+} */
+
+
+/* .home::after {
+  --tw-rotate: -45deg;
+  --tw-bg-opacity: 1;
+  --tw-content: "";
+  background-color: rgb(255 237 213 / var(--tw-bg-opacity));
+  border-radius: 50px;
+  bottom: 47%;
+  content: var(--tw-content);
+  left: 48%;
+  position: absolute;
+  right: -16%;
+  top: -19%;
+  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  z-index: -1;
+} */
+
+.bounce1{
+  animation-delay: 0.1s;
+}
+
+.bounce2{
+  animation-delay: 0.2s;
+}
+
+.bounce3{
+  animation-delay: 0.3s;
+}

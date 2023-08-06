@@ -1,0 +1,50 @@
+.nav .nav-alt{
+  box-shadow: 0px 6px 10px -1px #0f172a;
+}
+
+.link a {
+    position: relative;
+    transition: all 0.4s;
+    color: #FFEDD5;
+  }
+
+  .link-alt a{
+    color: #AA7EEE;
+  }
+  
+  .link a.active,.link a:hover{
+    color: #AA7EEE;
+  }
+  
+  .link a::after {
+    content: "";
+    width: 0%;
+    padding: 1px;
+    border-radius: 1px;
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+    transition: all 0.5s;
+  }
+  
+  .link a:hover::after,
+  .link a.active::after {
+    width: 100%;
+    background-color: #AA7EEE;
+    left: 0;
+  }
+  
+  .link-alt a.active,.link-alt a:hover{
+    color: #FFEDD5;
+  }
+
+  .link-alt a:hover::after,
+  .link-alt a.active::after {
+    width: 100%;
+    background-color: #FFEDD5;
+    left: 0;
+  }
+
+  /* .code .logo, .code i{
+    color: black;
+  } */
