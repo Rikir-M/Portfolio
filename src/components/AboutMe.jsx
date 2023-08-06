@@ -35,7 +35,7 @@ const AboutMe = () => {
                 and user-centric web experiences. I have 6 months of learning
                 period and more than 2 months of workshop experience at MMS IT,
                 where I honed my skills in HTML, CSS, JavaScript and ReactJs.
-                Through my showcased projects, you&apos;ll witness my dedication
+                Through my showcased projects, you wll witness my dedication
                 to creating responsive and engaging websites that leave a
                 lasting impact. I thrive on challenges and I am constantly
                 exploring new opportunities to expand my knowledge and

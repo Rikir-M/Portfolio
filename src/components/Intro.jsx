@@ -27,7 +27,7 @@ const Intro = () => {
               </p>
             </div>
             <p className="text-primary text-[50px] mb-[20px] md:mb-[20px] font-semibold bounce1 cssanimation bounceInLeft">
-              I&apos;m a Front-end Developer
+              I am a Front-end Developer
             </p>
             <p className="text-textColor mb-[8px] text-[20px] bounce2 cssanimation bounceInLeft">
               Based in Yangon, Myanmar.

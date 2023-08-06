@@ -32,10 +32,10 @@ const Nav = ({ data }) => {
                 Riki<i className="text-primary">Dev</i>
               </h1>
             </a>
-            <button
+            {/* <button
               data-collapse-toggle="navbar-default"
               type="button"
-              className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden  focus:outline-none "
+              className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-primary rounded-lg md:hidden  focus:outline-none "
               aria-controls="navbar-default"
               aria-expanded="false"
             >
@@ -55,7 +55,7 @@ const Nav = ({ data }) => {
                   d="M1 1h15M1 7h15M1 13h15"
                 />
               </svg>
-            </button>
+            </button> */}
             <div
               className="hidden w-full md:block md:w-auto"
               id="navbar-default"
